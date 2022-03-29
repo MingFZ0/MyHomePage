@@ -1,2 +1,1 @@
-version 0
-date: 3/29/22
+A Small HTML Homepage Just To Get Started
