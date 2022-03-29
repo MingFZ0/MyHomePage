@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<title>My Home Page</title>
+</head>
+<body>
+	<div class="searchBar">
+		<div id="icon">
+			<img src="https://th.bing.com/th/id/OIP.yi99soDpx3PjQViagcFQggHaHa?pid=ImgDet&rs=1" alt="Google" height="20" width="20" class="icon" id="google" style="border: 3px black solid;" onclick="engine_select('google')"/>
+			<img src="https://media.cdnandroid.com/item_images/42777/imagen-microsoft-bing-search-0big.jpg" alt="Bing" height="20" width="20" class="icon" id="bing" onclick="engine_select('bing')"/>
+			<input id='search' type="text" placeholder="Search..." onkeydown="search(event)">
+		</div>
+	</div>
+    <!-- <input id='search' type="text" placeholder="Search...">
+    <button onClick="submit()">Submits</button> -->
+	<script src="script.js"></script>
+</body>
+</html>
